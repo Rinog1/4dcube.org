@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Forum</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🗨️ Forum Board</h1>
+    </header>
+
+    <section class="post-creator">
+      <input type="text" id="post-title" placeholder="Post title..." />
+      <textarea id="post-content" placeholder="Write your message..."></textarea>
+      <button onclick="addPost()">Post</button>
+    </section>
+
+    <section id="posts" class="posts"></section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
